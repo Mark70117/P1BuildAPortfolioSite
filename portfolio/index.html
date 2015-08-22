@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mark Anderson</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+      	<img class="title-logo"
+      		src="https://dl.dropboxusercontent.com/u/3514030/P1PortfolioImages/MarkLogo.png"
+      		alt="Mark logo">
+      </div>
+
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super">Mark Anderson</h1>
+        <h3>Front-end Developer</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+      	<img 
+      	class="img-responsive"
+      	src="https://dl.dropboxusercontent.com/u/3514030/P1PortfolioImages/CentralPhoto.png"
+      	alt="Central Photo">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center text-muted">
+        <h2>Featured Work</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <a href="#" data-toggle="modal" data-target="#sirensModal">
+          <img 
+	        	class="img-responsive" 
+	        	src="https://dl.dropboxusercontent.com/u/3514030/P1PortfolioImages/Anternet.png"
+	        	alt="Anternet Exhibit">
+	      </a>
+        <h3>Anternet</h3>
+
+        <p>
+        	<a href="http://www.nola.com/arts/index.ssf/2011/04/automata_2011_mechanical_art_s.html">
+        		Link to project
+        	</a>
+        </p>
+      </div>
+
+      <div class="col-md-6">
+      	<a href="#" data-toggle="modal" data-target="#sirensModal">
+	        <img 
+	        	class="img-responsive" 
+	        	src="https://dl.dropboxusercontent.com/u/3514030/P1PortfolioImages/Sirens.png"
+	        	alt="Sirens gallery shot">
+	      </a>
+        <h3>Sirens</h3>
+        <p>
+        	<a href="http://automatanola.wordpress.com/2011/08/14/a-technological-terrarium-automata-artists-at-the-ogden/">
+        		Link to project
+        	</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+      	<a href="#" data-toggle="modal" data-target="#flyByWireModal">
+	        <img 
+	        	class="img-responsive" 
+	        	src="https://dl.dropboxusercontent.com/u/3514030/P1PortfolioImages/FlyByWire.png"
+	        	atl="Fly By Wire, Automata catalog">
+	       </a>
+
+        <h3>Fly By Wire</h3>
+
+        <p>
+        	<a href="http://www.barristersgallery.com/VOLATILIA.html">
+        		Link to project
+        	</a>
+        </p>
+      </div>
+
+      <div class="col-md-6">
+      	<a href="#" data-toggle="modal" data-target="#orpheusDescendingModal">
+	        <img 
+	        	class="img-responsive" 
+	        	src="https://dl.dropboxusercontent.com/u/3514030/P1PortfolioImages/OrpheusDescending.png"
+	        	atl="Descours _Orpheus Descending_ installation">
+	       </a>
+        <h3>Orpheus Descending</h3>
+        <p>
+        	<a href="http://lerata.org/jimmy-stamp-sergio-padilla-frederick-stivers-gumbo-labs-descours-2009-orpheus-descending/">
+        Link to project
+      		</a>
+      	</p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- anternetModal -->
+<div class="modal fade" id="anternetModal" tabindex="-1" role="dialog" aria-labelledby="anternetModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="anternetModalLabel"><h3>Fly By Wire</h3></h4>
+      </div>
+      <div class="modal-body">
+        <p>"Anternet" was a Bio-Art piece in the 2011 Automata show.  The piece involved tracking the movement of ants through an ant farm and posted messages on a social network in response to their motion.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- sirensModal -->
+<div class="modal fade" id="sirensModal" tabindex="-1" role="dialog" aria-labelledby="sirensModallLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="sirensModalLabel"><h3>Fly By Wire</h3></h4>
+      </div>
+      <div class="modal-body">
+        <p>"Sirens -- Prototype I", created by Gumbo Labs, was a installation appearing in ‘A Technological Terrarium,’ curated by Myrtle Von Damitz, at the Ogden Museum of Southern Art.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- flyByWireModal -->
+<div class="modal fade" id="flyByWireModal" tabindex="-1" role="dialog" aria-labelledby="flyByWireModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="flyByWireModal"><h3>Fly By Wire</h3></h4>
+      </div>
+      <div class="modal-body">
+        <p>"Fly By Wire -- Towards a Post-Furby metamorphosis" was part of a group show, VOLATILIA, curated my Myrtle von Damitz III, at Barrister's Gallery in New Orleans.  "Fly By Wire" features 1999 era Furbies whose tactile sensor are connected to the internet and who interact with the gallery patrons via twitter and text messaging.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- orpheusDescendingModal -->
+<div class="modal fade" id="orpheusDescendingModal" tabindex="-1" role="dialog" aria-labelledby="orpheusDescendingModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="orpheusDescendingModalLabel"><h3>Orpheus Descending</h3></h4>
+      </div>
+      <div class="modal-body">
+        <p>"Orpheus Descending" by Jimmy Stamp, Sergio Padilla, Frederick Stivers (NO/other) and Gumbo Labs, part of DesCours 2009 Installation series sponsored by the New Orleans Chapter of the American Institute of Architects.</p>
+				<p>Helped design and implement the interactive lighting as a member of Gumbo Labs.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
