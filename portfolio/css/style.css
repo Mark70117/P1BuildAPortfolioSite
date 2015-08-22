@@ -1,17 +1,19 @@
 body {
-	font-family: 'Poiret One', cursive;
-	color: #505050;
+    font: 100% "Poiret One", cursive;
+    color: #555;
 }
 
+/* Text */
 .text-muted {
-	color: #bcbbbb;
+    color: #bbb;
 }
 
+/* Title */
 .title-super {
-	font-size: 48px;
+    font-size: 48px;
 }
 
 .title-logo {
-	margin-top: 10px;
-	margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
